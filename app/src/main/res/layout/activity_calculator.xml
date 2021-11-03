@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageButton
+        android:id="@+id/btnBackspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="btnBackspace"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_backspace" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnClear"
+                app:srcCompat="@drawable/ic_clear" />
+
+            <ImageButton
+                android:id="@+id/btnSkobky"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnSkobky"
+                app:srcCompat="@drawable/ic_skobky" />
+
+            <ImageButton
+                android:id="@+id/btnStepen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnStepen"
+                app:srcCompat="@drawable/ic_stepen" />
+
+            <ImageButton
+                android:id="@+id/btnDelenie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnDelenie"
+                app:srcCompat="@drawable/ic_delenie" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnSeven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnSeven"
+                android:rotationX="8"
+                app:srcCompat="@drawable/ic_seven" />
+
+            <ImageButton
+                android:id="@+id/btnEight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnEight"
+                app:srcCompat="@drawable/ic_eight" />
+
+            <ImageButton
+                android:id="@+id/btnNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnNine"
+                app:srcCompat="@drawable/ic_nine" />
+
+            <ImageButton
+                android:id="@+id/btnUmnozhenie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnUmnozhenie"
+                app:srcCompat="@drawable/ic_umnozheniye" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnFour"
+                app:srcCompat="@drawable/ic_four" />
+
+            <ImageButton
+                android:id="@+id/btnFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnFive"
+                app:srcCompat="@drawable/ic_five" />
+
+            <ImageButton
+                android:id="@+id/btnSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnSix"
+                app:srcCompat="@drawable/ic_six" />
+
+            <ImageButton
+                android:id="@+id/btnMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnMinus"
+                app:srcCompat="@drawable/ic_minus" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnOne"
+                app:srcCompat="@drawable/ic_one" />
+
+            <ImageButton
+                android:id="@+id/btnTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnTwo"
+                app:srcCompat="@drawable/ic_two" />
+
+            <ImageButton
+                android:id="@+id/btnThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnThree"
+                app:srcCompat="@drawable/ic_three" />
+
+            <ImageButton
+                android:id="@+id/btnPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnPlus"
+                app:srcCompat="@drawable/ic_plus" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnPlusMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnPlusMinus"
+                app:srcCompat="@drawable/ic_plusminus" />
+
+            <ImageButton
+                android:id="@+id/btnZero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnZero"
+                app:srcCompat="@drawable/ic_zero" />
+
+            <ImageButton
+                android:id="@+id/btnZapyataya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnZapyataya"
+                app:srcCompat="@drawable/ic_zapyataya" />
+
+            <ImageButton
+                android:id="@+id/btnRavno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="btnRavno"
+                app:srcCompat="@drawable/ic_ravno" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="false"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/sf_pro_display"
+        android:inputType="textNoSuggestions"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/btnBackspace"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
